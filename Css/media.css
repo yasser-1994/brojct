@@ -1,0 +1,107 @@
+ 
+ /* ===============start nav bar===========  */
+ @media (max-width:991px){
+    .nav-item {padding: 0;}
+    .dropdown-menu::before {display: none;}
+}
+/* ===============end nav bar=========== */
+
+/* ===============start slider=========== */
+@media (max-width:991px){
+    .carousel {top: -7px;  }  
+    .carousel-inner .carousel-item img { height: 300px;}  
+}
+@media (min-width:992px) and (max-width:1199px){
+    .carousel-inner .carousel-item img { height: 350px;}
+}
+/* ===============end slider=========== */
+
+/* ===============start About=========== */
+@media (max-width:991px){
+    .about {padding: 20px 0;}
+    .about h1 {font-size: 25px;}
+    .about .lead {font-size: 14px;}
+}
+/* ===============end About=========== */
+/* ==========start Section features==========*/
+@media (max-width:991px){
+    .features .feat {margin-bottom: 30px;}
+    .features .feat p{
+        line-height: 2em;
+        font-size: 14px;
+        width: 80%;
+        margin: auto; 
+    }
+}
+/* ==========end Section features==========*/
+
+/* ========start testimonial========== */
+@media (max-width:767px) {.carousel-indicators {top: 13em;}}
+@media (max-width:991px){ 
+    .testimonial .carousel {min-height: 230px;}
+    .testimonial .lead {font-size: 18px;}
+    .testimonial .carousel-indicators li { height: 40px; width: 40px;} 
+}
+@media (min-width:992px) and (max-width:1190px){
+    .testimonial .carousel {min-height: 260px;}
+}
+/* ========end testimonial========== */
+/* ========start Our Team============== */
+@media (max-width:767px){
+    .our-team {min-height: 1500px;}
+    .person p{
+        font-size: 14px;
+        width: 50%;
+        margin: 0 auto 15px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {.our-team { min-height: 800px;}}
+/* ========end Our Team============== */
+/* ==========start subscribe============== */
+@media (max-width:576px){
+    .subscribe .form-inline {text-align: -webkit-center;}
+    .subscribe .form-inline .form-control { margin-bottom: 10px;  text-align: center;}
+}
+/* ==========end subscribe============== */
+/* ========start statistics============= */
+@media (max-width:767px){
+    .statistics { min-height:890px;}
+    .statistics .stats { margin-bottom: 20px;}
+}
+@media (min-width:768px) and (max-width:991px){
+    .statistics { min-height: 500px;}
+    .statistics .stats {margin-bottom: 20px;}
+}
+/* ========end statistics============= */
+/* ========start footer============= */
+@media (max-width:767px){
+    .footer .media img {width: 45px; height:45px;}
+}
+/* ========end footer============= */
+/* ==============start contact us ==========*/
+@media (max-width:767px) { .contact-us { min-height: 670px;}}
+/* ==============end contact us ==========*/
+/* =============start about us============ */
+@media (max-width:767px){
+    .seo-1 { text-align: center;}
+    .seo-1 h2{font-size: 25px; }
+}
+/* =============end about us============ */
+
+
+
+/* @media  (max-width:576px){
+
+}
+@media  (min-width:576px) and (max-width:767px){
+
+}
+@media  (min-width:768px) and (max-width:991px){
+
+}
+@media  (min-width:992px) and (max-width:1199px){
+
+}
+@media  (min-width:1200px){
+
+} */
